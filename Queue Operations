@@ -1,7 +1,4 @@
 #include <stdio.h>
-
-
-
 int enqueue(int queue[], int rear, int n) {
     if (rear >= n - 1) {
         printf("Queue overflow\n");
